@@ -40,7 +40,7 @@ object Dep {
     }
 
     object Google {
-        const val material = "com.google.android.material:material:1.4.0"
+        const val material = "com.google.android.material:material:1.6.1"
         const val gson = "com.google.code.gson:gson:2.8.7"
     }
 
@@ -84,6 +84,12 @@ object Dep {
         const val daggerCompiler = "com.google.dagger:dagger-compiler:$version"
         const val daggerAndroidProcessor = "com.google.dagger:dagger-android-processor:$version"
 
+    }
+
+    object Hilt {
+        private const val version = "2.28-alpha"
+        const val hilt = "com.google.dagger:hilt-android:$version"
+        const val hiltCompiler = "com.google.dagger:hilt-android-compiler:$version"
     }
 
     object Github {
